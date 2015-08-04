@@ -1,0 +1,43 @@
+flags:
+  blaze-builder:
+    new-builder: true
+  text:
+    integer-simple: false
+  blaze-builder-enumerator:
+    newbuilder: false
+resolver: ghc-7.8
+packages:
+- '.'
+extra-deps:
+- HUnit-1.2.5.2
+- MonadCatchIO-transformers-0.3.1.3
+- attoparsec-0.13.0.1
+- attoparsec-enumerator-0.3.4
+- transformers-0.4.3.0
+- blaze-builder-0.4.0.1
+- blaze-builder-enumerator-0.2.1.0
+- bytestring-builder-0.10.6.0.0
+- bytestring-mmap-0.2.2
+- case-insensitive-1.2.0.4
+- enumerator-0.4.20
+- extensible-exceptions-0.1.1.4
+- hashable-1.2.3.3
+- monads-tf-0.1.0.2
+- mtl-2.2.1
+- network-2.6.2.1
+- primitive-0.6
+- random-1.1
+- regex-base-0.93.2
+- regex-posix-0.95.2
+- scientific-0.3.3.8
+- snap-core-0.9.7.2
+- snap-server-0.9.5.1
+- streaming-commons-0.1.12.1
+- text-1.2.1.3
+- unix-compat-0.4.1.4
+- unordered-containers-0.2.5.1
+- stm-2.4.4
+- zlib-0.6.1.1
+- vector-0.11.0.0
+- zlib-bindings-0.1.1.5
+- zlib-enum-0.2.3.1
